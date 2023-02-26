@@ -21,3 +21,40 @@
 .projects {
     grid-area: 2 / 2 / 2 / 2;
 }
+
+.sidebar {
+    display: grid;
+    grid-auto-rows: min-content;
+    gap: 50px;
+}
+
+.side-top-section {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 7px;
+    gap: 10px;
+}
+
+.dashboard-icon {
+    width: 45px;
+}
+
+.side-icon {
+    width: 30px;
+}
+
+.side-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-help, .side-personal-routes {
+    display: grid;
+    gap: 10px;
+}
