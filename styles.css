@@ -10,7 +10,7 @@
     grid-template: 1.5fr 7fr / 1fr 7fr;
 }
 
-.projects {
+.data-container {
     grid-area: 2 / 2 / 2 / 2;
 }
 
