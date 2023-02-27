@@ -10,9 +10,6 @@
     grid-template: 1.5fr 7fr / 1fr 7fr;
 }
 
-.data-container {
-    grid-area: 2 / 2 / 2 / 2;
-}
 
 .sidebar {
     grid-area: 1 / 1 / -1 / 1;
@@ -118,6 +115,7 @@
     margin-top: 5px;
     font-size: 0.8rem;
 }
+
 .user-details {
     margin-bottom: 10px;
     font-size: 1.5rem;
@@ -132,6 +130,12 @@
 
 .control-button {
     text-decoration: none;
+}
+
+.data-container {
+    grid-area: 2 / 2 / 2 / 2;
+    display: grid;
+    grid-template: 1fr 1fr / 4fr 1fr;
 }
 
 .project-control-button {
