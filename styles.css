@@ -42,6 +42,7 @@
 .side-container {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    gap: 15px;
     margin-left: 15px;
     justify-content: center;
     align-items: center;
