@@ -133,3 +133,7 @@
 .control-button {
     text-decoration: none;
 }
+
+.project-control-button {
+    width: 25px;
+}
