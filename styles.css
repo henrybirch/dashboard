@@ -7,15 +7,7 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template: 1fr 4fr / 1fr 7fr;
-}
-
-.sidebar {
-    grid-area: 1 / 1 / -1 / 1;
-}
-
-.top-bar {
-    grid-area: 1 / 2 / 1 / 2;
+    grid-template: 1fr 7fr / 1fr 7fr;
 }
 
 .projects {
@@ -23,6 +15,7 @@
 }
 
 .sidebar {
+    grid-area: 1 / 1 / -1 / 1;
     display: grid;
     grid-auto-rows: min-content;
     gap: 50px;
@@ -57,4 +50,48 @@
 .side-help, .side-personal-routes {
     display: grid;
     gap: 10px;
+}
+
+.top-bar {
+    grid-area: 1 / 2 / 1 / 2;
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+}
+
+.control-bar > .profile-picture {
+    width: 50px;
+}
+
+.main-bar {
+    padding-top: 12px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar-container {
+    display: grid;
+    grid-template-columns: 1fr 35fr;
+    height: min-content;
+}
+
+.search-bar {
+    width: 90%;
+}
+
+.top-right-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 5fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-right-container > .profile-picture {
+    width: 50px;
+}
+
+.main-bar-icon {
+    width: 27px;
 }
