@@ -119,6 +119,8 @@
 .user-details {
     margin-bottom: 10px;
     font-size: 1.5rem;
+    white-space: nowrap;
+    margin-right: 15px;
 }
 
 .control-buttons-container {
@@ -135,9 +137,34 @@
 .data-container {
     grid-area: 2 / 2 / 2 / 2;
     display: grid;
-    grid-template: 1fr 1fr / 4fr 1fr;
+    grid-template: 1fr 1fr / 2fr 1fr;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .project-control-button {
     width: 25px;
+}
+
+.projects {
+    display: grid;
+    grid-template: auto 1fr 1fr / repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    grid-area: 1 / 1 / -1 / 1;
+}
+
+.projects-header {
+    grid-area: 1 / 1 / 1 / -1;
+    margin-bottom: -20px;
+}
+
+.project {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.project-control-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
