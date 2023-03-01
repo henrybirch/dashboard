@@ -236,8 +236,7 @@
     padding: 10px 5px 10px 5px;
     gap: 5px;
     background-color: white;
-    justify-content: center;
-    align-content: end;
+    justify-content: space-evenly;
 }
 
 .announcement-separation {
@@ -261,10 +260,12 @@
 }
 
 .trending {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 15px;
     padding: 10px;
-    gap: 20px;
+    gap: 15px;
 }
 
 .trending-user {
@@ -272,6 +273,10 @@
     grid-template: 1fr 1fr / auto 1fr;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    width: 80%;
+    padding-left: 15px;
+    border-radius: 20px;
 }
 
 .trending-profile-picture {
@@ -279,3 +284,4 @@
     grid-area: 1 / 1 / -1 / 1;
     margin-right: 10px;
 }
+
