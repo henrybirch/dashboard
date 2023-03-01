@@ -161,6 +161,7 @@
 .project {
     display: grid;
     grid-template-rows: auto 1fr auto;
+    padding: 20px;
 }
 
 .project-control-buttons {
