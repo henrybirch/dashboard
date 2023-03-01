@@ -175,7 +175,7 @@
     padding-top: 15px;
     background-color: var(--colour-1);
     /*box-shadow: 0 30px 40px rgba(0,0,0,.3);*/
-    box-shadow: inset 0px 0px 1px 1px grey;
+    box-shadow: inset 0 0 1px 1px grey;
 
 }
 
