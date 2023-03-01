@@ -1,3 +1,7 @@
+:root {
+    --colour-1: #cbc9cb;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +22,6 @@
     grid-auto-rows: min-content;
     gap: 50px;
     background-color: cornflowerblue;
-    margin-right: 15px;
 }
 
 .sidebar * {
@@ -100,9 +103,9 @@
 
 .search-bar {
     width: 90%;
-    background-color: #cbc9cb;
+    background-color: var(--colour-1);
     height: 20px;
-    border:1px solid whitesmoke;
+    border: 1px solid whitesmoke;
     border-radius: 20px;
     padding: 5px;
 }
@@ -166,8 +169,14 @@
     grid-area: 2 / 2 / 2 / 2;
     display: grid;
     grid-template: 1fr 1fr / 2fr 1fr;
-    margin-bottom: 100px;
-    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color: var(--colour-1);
+    /*box-shadow: 0 30px 40px rgba(0,0,0,.3);*/
+    box-shadow: inset 0px 0px 1px 1px grey;
+
 }
 
 .project-control-button {
@@ -181,6 +190,10 @@
     grid-area: 1 / 1 / -1 / 1;
 }
 
+.section-header {
+    font-weight: bold;
+}
+
 .projects-header {
     grid-area: 1 / 1 / 1 / -1;
     margin-bottom: -20px;
@@ -190,6 +203,12 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border-left: 10px solid orange;
+    border-top: 5px solid grey;
+    border-right: 5px solid grey;
+    border-bottom: 5px solid grey;
 }
 
 .project-control-buttons {
