@@ -69,6 +69,14 @@
     padding-left: 40px;
 }
 
+.control-button {
+    background-color: cornflowerblue;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
 .control-bar > .profile-picture {
     width: 70px;
 }
